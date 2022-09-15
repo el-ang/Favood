@@ -1,0 +1,38 @@
+{
+  "name": "favood",
+  "version": "1.0.0",
+  "description": "My Favorites Food & Drink 🍕",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server .",
+    "build": "webpack ."
+  },
+  "keywords": [
+    "app",
+    "bio",
+    "drink",
+    "food",
+    "js",
+    "react",
+    "web"
+  ],
+  "author": "el-ang",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.0",
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/plugin-transform-runtime": "^7.18.10",
+    "@babel/preset-env": "^7.19.0",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/runtime": "^7.19.0",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0"
+  }
+}
