@@ -1,2 +1,2 @@
 # Favood
-My Favorites Food & Drink 🍕
+List of My Favorite Foods & Drinks 🍕

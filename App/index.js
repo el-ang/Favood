@@ -5,6 +5,7 @@ import {/* About,  */Main/* , Menu, Lost */} from "./pages";
 import "./style.css"
 
 const App = ()=> <Router>
+    <Nav/>
     <Routes>
         <Route path="/">
             <Route index element={<Main/>}/>

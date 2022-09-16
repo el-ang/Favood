@@ -1,15 +1,15 @@
 import React from "react";
-import {Link, useLocation} from "react-router-dom";
+import {useLocation} from "react-router-dom";
 import {Searcher, Social} from "../";
 
 const
-    plat = new Social({path: "el-ang/Favood"}),
+    plat = new Social(),
     link = (name = "")=> (name = "/"+name) === useLocation()? undefined: name,
     Nav = ()=> <nav>
-        <Link to={link()} className="profile">Favood</Link>
+        <a href={link()} className="profile">Favood</a>
         <div className="menu">
-            <Link to={link("menu")}>Menu</Link>
-            <Link to={link("about")}>About</Link>
+            <a href={link("menu")}>Menu</a>
+            <a href={link("about")}>About</a>
             <Social plat={plat.GITHUB} path="el-ang/Favood"/>
             <Searcher/>
         </div>
