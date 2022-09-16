@@ -1,7 +1,5 @@
-import Nav from "./Nav";
 import Searcher from "./Searcher";
 import Social from "./Social";
+import Nav from "./Nav";
 
-console.log(Social);
-
-export {Nav, Searcher, Social}
+export {Nav, Searcher, Social};

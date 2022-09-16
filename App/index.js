@@ -1,16 +1,16 @@
 import React from "react";
 import {BrowserRouter as Router, Routes, Route, useLocation} from "react-router-dom";
 import {Nav} from "./components";
-import {About, Main, Menu, Lost} from "./pages";
+import {/* About,  */Main/* , Menu, Lost */} from "./pages";
 import "./style.css"
 
 const App = ()=> <Router>
     <Routes>
-        <Route path="/" element={<Nav/>}>
+        <Route path="/">
             <Route index element={<Main/>}/>
-            <Route path="menu" element={<Menu/>}/>
-            <Route path="about" element={<About/>}/>
-            <Route path="*" element={<Lost/>}/>
+            <Route path="menu" element={{/* <Menu/> */}}/>
+            <Route path="about" element={{/* <About/> */}}/>
+            <Route path="*" element={{/* <Lost/> */}}/>
         </Route>
     </Routes>
 </Router>;

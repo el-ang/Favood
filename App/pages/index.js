@@ -1,6 +1,6 @@
-import About from "./About";
+/* import About from "./About";
+import Lost from "./Lost"; */
 import Main from "./Main";
-import Menu from "./Menu";
-import Lost from "./Lost"
+/* import Menu from "./Menu"; */
 
-export {About, Main, Menu, Lost}
+export {/* About,  */Main/* , Menu, Lost */}

@@ -15,7 +15,7 @@ module.exports = {
         open: !0,
         hot: !0
     },
-    resolve: {extensions: [".js", ".jsx", ".json"]},
+    resolve: {extensions: [".js", ".jsx", ".json", "ts", "tsx"]},
     module: {rules: [{
         test: /\.jsx?$/,
         exclude: /node_modules/,

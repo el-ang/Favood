@@ -1,7 +1,7 @@
 import React from "react";
 
-const Search = ()=> {
+const Searcher = ()=> {
     return <input type="search" name="q" placeholder="Search"/>
 }
 
-export default Search;
+export default Searcher;
